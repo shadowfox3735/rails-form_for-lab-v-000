@@ -1,6 +1,6 @@
 class SchoolClassesController < ApplicationController
   def index
-		@school_classes = Student.all
+		@school_classes = SchoolClass.all
 	end
 
 	def show
